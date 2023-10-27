@@ -5,6 +5,10 @@
 :root {
   --color-primary: #7d59b6;
   --color-secondary: #e1c1ee;
+  
+}
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -60,7 +64,10 @@ h2 {
   border-radius: 50px 0px 76px 0px;
   margin-bottom: 30px;
 }
-article {
+
+@media (min-width: 1024px) {
+
+.article {
   display: flex;
   align-items: center;
   margin-top: 20px;
@@ -70,6 +77,7 @@ article {
   font-style: normal;
   font-weight: 400;
   line-height: 28px; /* 175% */
+}
 }
 .project-content {
   padding: 20px; /* Adicione o espaçamento desejado */
@@ -89,11 +97,11 @@ article {
   text-align: center;
 }
 
-blockquote {
+.blockquote {
   margin-top: 12%;
   font-size: 13px;
 }
-cite {
+.cite {
   font-size: 10px;
 }
 
@@ -146,7 +154,7 @@ cite {
   background-color: #00000045;
 }
 
-ul {
+.ul {
   display: flex;
   list-style-type: none;
   justify-content: center;
@@ -198,4 +206,12 @@ footer {
   transform: translateX(-50%);
   left: 50%;
   border-radius: 21px;
+}
+.button {
+  padding: 14px 15px;
+border-radius: 5px;
+border: 1px solid var(--color-primary);
+cursor: pointer;
+text-decoration: none;
+
 }
