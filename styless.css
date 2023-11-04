@@ -107,6 +107,9 @@ h2 {
 }
 
 .about-img {
+  position: absolut;
+  left: 90px;
+  top: 90px;
   width: 100%;
   max-width: 400px;
 }
