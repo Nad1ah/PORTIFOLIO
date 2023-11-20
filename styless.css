@@ -121,7 +121,7 @@ h2 {
 }
 
 .projects-article {
-  display: flex;
+  display: flexbox;
   padding: 30px 15px;
 }
 .projects-article .button-primary {
