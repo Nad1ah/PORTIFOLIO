@@ -15,26 +15,27 @@
 }
 .button-primary:hover {
   color: #fff;
-  background-color: #186c8b;
+  background-color: #8496a0;
   text-decoration-line: none;
 }
 
 .button-secondary {
-  color: #8496a0;
-  border: 2px solid #fff;
+  color: #fff;
+  border: 2px solid #8496a0;
   text-decoration-line: none;
+  background-color: #b2bfc6;
 }
 
 .button-secondary:hover {
-  color: #fff;
-  background-color: #8496a0;
+  color: #8496a0;
+  background-color: #fff;
 }
 
 .button-tertiary {
   color: #fff;
   background-color: #8496a0;
   border: 2px solid #186c8b;
-  text-decoration: none;
+  text-decoration-line: none;
 }
 
 .button-tertiary:hover {
@@ -106,13 +107,13 @@ h2 {
   }
 }
 
-.about-img {
+.img-bio {
   position: flex;
   max-width: 400px;
+  margin-right: 120px;
 }
 
-.about-description {
-  margin-left: 30px;
+.about-discription {
   text-align: center;
 }
 
