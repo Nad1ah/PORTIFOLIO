@@ -31,18 +31,27 @@
   background-color: #fff;
 }
 
+.button-secondary-about {
+  color: #fff;
+  border: 2px solid #8496a0;
+  text-decoration-line: none;
+  background-color: #b2bfc6;
+  text-align: center;
+}
+
 .button-tertiary {
   color: #fff;
   background-color: #8496a0;
   border: 2px solid #186c8b;
   text-decoration: none;
-  margin: none;
+  text-decoration-line: none;
+  text-align: center;
 }
 
 .button-tertiary:hover {
   color: #8496a0;
   background-color: #fff;
-  text-decoration-line: none;
+  text-decoration: none;
 }
 
 * {
@@ -123,9 +132,9 @@ h2 {
 }
 
 .projects-article-h2 {
-  display: flex;
   text-align: center;
 }
+
 .projects-article h3 {
   font-weight: 500;
 }
@@ -147,6 +156,9 @@ h2 {
   border-radius: 5px;
 }
 
+.project-content {
+  padding: 30px 15px;
+}
 .contact {
   text-align: center;
   padding: 90px 15px 90px;
@@ -165,15 +177,6 @@ h2 {
   }
 }
 
-.footer {
-  display: flex;
-  padding: 1em;
-  max-width: 400px;
-  margin: 0 auto;
-  text-align: center;
-  position: relative absolute;
-}
-
 .social-item {
   display: inline-block;
   align-items: center;
@@ -185,13 +188,22 @@ h2 {
 }
 
 .social-link {
-  display: block;
+  display: inline-block;
   align-items: center;
   justify-content: center;
   width: 30px;
   height: 30px;
-  background-size: 30px;
+  background-size: cover;
   background-repeat: no-repeat;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 15px 90px;
+  color: var(--color-text-secondary);
 }
 
 .github {
