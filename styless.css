@@ -37,6 +37,7 @@
   text-decoration-line: none;
   background-color: #b2bfc6;
   text-align: center;
+
 }
 
 .button-tertiary {
@@ -52,6 +53,7 @@
   color: #8496a0;
   background-color: #fff;
   text-decoration: none;
+  text-decoration-line: none;
 }
 
 * {
@@ -154,6 +156,7 @@ h2 {
   width: 100%;
   max-width: 495px;
   border-radius: 5px;
+  display: flex;
 }
 
 .project-content {
